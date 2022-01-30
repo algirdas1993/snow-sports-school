@@ -7,7 +7,6 @@
 body {
     font-family: Dongle, sans-serif;
     font-size: 200%;
-    padding: 0 10% 0 10%;
 }
 #logo {
     float:left;
@@ -24,24 +23,26 @@ body {
     list-style: none;
     margin-left: 30px;
 }
-#img {
+#about  {
+    max-height: 400px;
+    width: 100%;
+}
+#about div {
+    width: 50%;
     height: 400px;
-    width: 65%;
-    float: left;
+    display: inline-block;
 }
-#text {
-    max-height: 400px;
-    width: 30%;
-    float: right;
-
+#times{
+    width: 100%;
 }
-#about {
-    max-height: 400px;
+#times div {
+    width: 33%;
+    height: 250px;
     clear: both;
-    text-align: center;
-    
-}
+    display: inline-block;
+    background-color: blueviolet;
 
+}
 table, th, td {
     border: none;
 
