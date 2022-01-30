@@ -8,42 +8,34 @@ body {
     font-family: Dongle, sans-serif;
     font-size: 200%;
 }
+#header {
+    width: 100%;
+    height: 80px;
+    clear: both;
+    background-color: aqua;
+}
 #logo {
-    float:left;
-    font-size: 200%;
+    float: left;
 }
 #links {
-    font-size: 120%;
-}
-#logo #links {
-    height: 60px;
+    float: right;  
 }
 #links li {
-    float: right;
     list-style: none;
-    margin-left: 30px;
+    float: right;
+    padding-right: 20px;
+    background-color: blue;
+    margin-top: 15px;
 }
-#about  {
-    max-height: 400px;
+#about {
+    height: 450px;
     width: 100%;
+    background-color: coral;
+    box-sizing: border-box;
 }
-#about div {
-    width: 50%;
-    height: 400px;
-    display: inline-block;
-}
-#times{
-    width: 100%;
-}
-#times div {
-    width: 33%;
-    height: 250px;
-    clear: both;
-    display: inline-block;
-    background-color: blueviolet;
-
-}
-table, th, td {
-    border: none;
-
+#about p {
+    float: right;
+    max-width: 50%;
+    padding:150px 20px 100px 20px;
+    
 }
