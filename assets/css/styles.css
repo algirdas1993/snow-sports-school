@@ -43,26 +43,30 @@ body {
 }  
 #text-box {
     width: 400px;
-    height: 350px;
+    height: 400px;
     background-color: rgba(12, 10, 10, 0.699);
-    box-shadow: 20px 20px 50px 15px grey;
     color: #f0edc6;
     padding: 5px;
-    right: 10px;
-    top: 100px;
-    position: absolute;
+    float: right;
+    right: 20px;
+    top: 20px;
+    position: relative;
 }
 #times {
-    height: 400px;
+    height: 350px;
     width: 100%;
     background-color: #4d838a;
 }
 #times div {
-    display: inline-block;
-    width: 33%;
+    float: left;
+    width: 33.3%;
     text-align: center;
+    box-sizing: border-box;
     color: #f0edc6;
-    position: relative;
+    border: 1px solid #f0edc6;
+}
+hr {
+    border: 1px solid #f0edc6;
 }
 #times h2 {
     letter-spacing: 2px;
@@ -78,7 +82,7 @@ body {
     background: #0c2d35;
 }
 .sports {
-    height: 400px;
+    height: 350px;
 }
 #form {
     background: url('../images/ski-slope-3187602_1920.jpg') no-repeat center center;
@@ -108,6 +112,7 @@ option {
 #button {
     margin-top: 10px;
     background-color: #f0edc6;
+    border-radius: 20%;
     color: #0c2d35;
     transition-duration: 0.4s;
 }
@@ -141,4 +146,55 @@ footer {
 }
 #media i:hover {
     color: #0a5a59;
+}
+@media screen and (max-width: 1200px)  {
+    #times div {
+        font-size: 70%;
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 900px)  {
+    #times div {
+        font-size: 65%;
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 420px)  {
+    #header {
+        font-size: 50%;
+    }
+    #links {
+        float: left;
+        padding: 0 0 20px 20px;
+    }
+    #text-box {
+        width: 100%;
+        height: 100%;
+        font-size: 80%;
+        padding: 0px;
+        float: none;
+        right: 0;
+        top: 0;
+        text-align: center;
+        
+    }
+    #times {
+        height: 600px;
+    }
+    #times div {
+        width: 100%;
+        height: 200px;
+        padding: 0;
+    }
+    #signup {
+        height: 400px;
+        width: 100%;
+        padding-left: 20px;
+    }
+    #signup h2 {
+        font-size: 80%;
+    }
+    #contacts {
+        font-size: 80%;
+    }
 }
