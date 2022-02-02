@@ -39,3 +39,15 @@ The Snow Sports School website is created for those, who want to learn:
   <li>Contains our links to social media pages</li>
   <img src="/assets/images/footer.png">
 </ul>
+<ul>
+  <h3>Testing</h3>
+  <li>I tested that this webpage works in different browssers: Chrome, Firefox, Opera, Edge.</li>
+  <li>I confirmed that this webpage is responsive and works on different screen sizes.</li>
+  <li>I confirme that all element are readable and easy to understand.</li>
+  <li>I have confirmed, that form work: al entrys are requared, email field accepts only emails and submition button works.</li>
+</ul>
+<ul>
+  <h3>Validator Testing</h3>
+  <li>HTML</li>
+  <img src="/assets/images/footer.png">
+</ul>
