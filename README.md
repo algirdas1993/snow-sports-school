@@ -48,6 +48,8 @@ The Snow Sports School website is created for those, who want to learn:
 </ul>
 <ul>
   <h3>Validator Testing</h3>
-  <li>HTML</li>
-  <img src="/assets/images/footer.png">
+  <li>HTML - No errors returned when passing through the official W3C validator</li>
+  <li>CSS - No errors returned when passing through the official W3C (Jigsaw) validator</li>
+  <li>Accessibility - i confirmed that the fonts and colors are easy to read and accessible by running it through lighthouse in devtools</li>
+  <img src="/assets/images/score.png">
 </ul>
