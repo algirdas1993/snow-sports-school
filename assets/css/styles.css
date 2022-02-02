@@ -86,20 +86,29 @@ hr {
 }
 #form {
     background: url('../images/ski-slope-3187602_1920.jpg') no-repeat center center;
+    height: 540px;
 }
 #signup {
-    height: 500px;
+    height: 450px;
     width: 400px;
     background-color: rgba(12, 10, 10, 0.699);
     color: #f0edc6;
     text-align: left;
     padding-left: 20px;
+    margin: 0px 0 20px 20px;
+    top: 20px;
+    position: relative;
 
 
 }
-input, label, select {
+input {
     display: block;
-    font-size: 75%;
+    font-size: 70%;
+    margin-top: -5px;
+}
+
+select {
+    font-size: 50%;
     margin-top: -5px;
 }
 input, select {
@@ -107,7 +116,7 @@ input, select {
     border-radius: 2px;
 } 
 option {
-    font-size: 60%;
+    font-size: 100%;
 }
 #button {
     margin-top: 10px;
@@ -165,7 +174,11 @@ footer {
     }
     #links {
         float: left;
-        padding: 0 0 20px 20px;
+        font-size: 150%;
+        padding: 0 0 0 20px;
+    }
+    #links li {
+        margin: 0;
     }
     #text-box {
         width: 100%;
@@ -176,7 +189,6 @@ footer {
         right: 0;
         top: 0;
         text-align: center;
-        
     }
     #times {
         height: 600px;
@@ -188,11 +200,17 @@ footer {
     }
     #signup {
         height: 400px;
-        width: 100%;
-        padding-left: 20px;
+        width: 95%;
+        margin: 0 0 0 0;
     }
     #signup h2 {
         font-size: 80%;
+    }
+    label {
+        font-size: 70%;
+    }
+    input {
+        font-size: 70%;
     }
     #contacts {
         font-size: 80%;
