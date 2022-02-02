@@ -10,6 +10,7 @@
     <title>Snow Sports School</title>
 </head>
 <body>
+    <!-- Header part with navigation links -->
     <header id="header">
         <h1 id="logo">Snow Sports School</h1>
         <nav id="links">
@@ -26,85 +27,88 @@
             </ul>
         </nav>
     </header>
-        <section id="about"> 
-            <div id="text-box">
-                <h2>Why us?</h2>   
-                <p>Having fun in snow shouldn't be things that scares you. We can offer you or your children a professional help from our friendly instructors. So, if you're interested, just pick a time, that suits you or your children best, fill the sign up form and we will contact you as soon as possible.</p>
+    <!-- section with basic information  -->
+    <section id="about"> 
+        <div id="text-box">
+             <h2>Why us?</h2>   
+             <p>Having fun in snow shouldn't be things that scares you. We can offer you or your children a professional help from our friendly instructors. So, if you're interested, just pick a time, that suits you or your children best, fill the sign up form and we will contact you as soon as possible.</p>
+        </div>
+    </section> 
+    <section id="times">      
+         <div id="snowboard" class="sports">
+            <h2>Snowboarding <i class="fas fa-snowboarding"></i></h2>
+            <hr>
+            <h3>Age 4 to 12</h3>
+            <h3>Tuesday | 10:30</h3>
+            <hr>
+            <h3>Age 13 and older</h3>
+            <h3>Wednesday | 14:00</h3>
+        </div>
+        <div id="cross_country" class="sports">
+            <h2>Nordic Skiing <i class="fas fa-skiing-nordic"></i></h2>
+            <hr>
+            <h3>Age 4 to 12</h3>
+            <h3>Monday | 10:00</h3>
+            <hr>
+            <h3>Age 13 and older</h3>
+            <h3>Friday | 14:00</h3>   
+        </div>
+        <div id="alpine" class="sports"> 
+            <h2>Alpine Skiing <i class="fas fa-skiing"></i></h2>
+            <hr>
+            <h3>Age 4 to 12</h3>
+            <h3>Thursday | 10:00</h3>
+            <hr>
+            <h3>Age 13 and older</h3>
+            <h3>Tuesday | 15:00</h3>     
+        </div>
+    </section> 
+    <!-- form section with inputs for name, last name, email -->
+    <section id="form">
+        <form action="https://formdump.codeinstitute.net/" method="post" id="signup">
+            <h2>Start Your snow fun now!</h2>
+            <div>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="first_name" required>
             </div>
-        </section> 
-        <section id="times">      
-            <div id="snowboard" class="sports">
-                <h2>Snowboarding <i class="fas fa-snowboarding"></i></h2>
-                <hr>
-                <h3>Age 4 to 12</h3>
-                <h3>Tuesday | 10:30</h3>
-                <hr>
-                <h3>Age 13 and older</h3>
-                <h3>Wednesday | 14:00</h3>
+            <div>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="last_name" required>
             </div>
-            <div id="cross_country" class="sports">
-                <h2>Nordic Skiing <i class="fas fa-skiing-nordic"></i></h2>
-                <hr>
-                <h3>Age 4 to 12</h3>
-                <h3>Monday | 10:00</h3>
-                <hr>
-                <h3>Age 13 and older</h3>
-                <h3>Friday | 14:00</h3>   
+            <div>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
             </div>
-            <div id="alpine" class="sports"> 
-                <h2>Alpine Skiing <i class="fas fa-skiing"></i></h2>
-                <hr>
-                <h3>Age 4 to 12</h3>
-                <h3>Thursday | 10:00</h3>
-                <hr>
-                <h3>Age 13 and older</h3>
-                <h3>Tuesday | 15:00</h3>     
+            <div>
+                <label for="activity">Select your activity</label>
+                <select name="activity" id="activity" required>
+                    <option label="Choose your activity"></option>
+                    <option value="alpine_skiing">Alpine skiing</option>
+                    <option value="cross_country">Nordic skiing</option>
+                    <option value="snowboard">Snowboarding</option>
+                </select>
             </div>
-        </section> 
-        <section id="form">
-            <form action="https://formdump.codeinstitute.net/" method="post" id="signup">
-                <h2>Start Your snow fun now!</h2>
-                <div>
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="first_name" required>
-                </div>
-                <div>
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="last_name" required>
-                </div>
-                <div>
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div>
-                    <label for="activity">Select your activity</label>
-                    <select name="activity" id="activity" required>
-                        <option label="Choose your activity"></option>
-                        <option value="alpine_skiing">Alpine skiing</option>
-                        <option value="cross_country">Nordic skiing</option>
-                        <option value="snowboard">Snowboarding</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="age">Select your age group</label>
-                    <select name="age_group" id="age" required>
-                        <option label="Choose age group"></option>
-                        <option value="4_to_12">4 to 12</option>
-                        <option value="13_and_older">13 and older</option>
-                    </select>
-                </div>
+            <div>
+                <label for="age">Select your age group</label>
+                <select name="age_group" id="age" required>
+                    <option label="Choose age group"></option>
+                    <option value="4_to_12">4 to 12</option>
+                    <option value="13_and_older">13 and older</option>
+                </select>
+            </div>
                 <input type="submit" value=" Let's Ski! " id="button">
-            </form>
-        </section>
-        <section id="contacts">        
-                <div>
-                    <h2>Contact Us!</h2>
-                    <h3>Got questions? Feel free to get in touch!</h3>
-                    <p>012 345 6789 | info@snowsports.com</p>
-                    <p>Snow Sports School, Snow Peak Street 1, Mont Blanc</p>
-                </div>
-        </section>
+        </form>
+    </section>
+    <section id="contacts">        
+            <div>
+                <h2>Contact Us!</h2>
+                <h3>Got questions? Feel free to get in touch!</h3>
+                <p>012 345 6789 | info@snowsports.com</p>
+                <p>Snow Sports School, Snow Peak Street 1, Mont Blanc</p>
+            </div>
+    </section>
     <footer>
+        <!-- links to media  -->
         <ul id="media">
             <li>
                 <a href="http://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page"><i class="fab fa-twitter-square"></i></a>

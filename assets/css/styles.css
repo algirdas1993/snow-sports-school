@@ -39,8 +39,9 @@ body {
     height: 450px;
     width: 100%;
     background-color: #4d838a;
-    background: url('../images/panoramic-644584_1920.jpg') no-repeat center center;
+    background: url('../images/panoramic_first_picture.jpg') no-repeat center center;
 }  
+/* first background image */
 #text-box {
     width: 400px;
     height: 400px;
@@ -52,6 +53,7 @@ body {
     top: 20px;
     position: relative;
 }
+/* CSS for times part */
 #times {
     height: 350px;
     width: 100%;
@@ -84,8 +86,9 @@ hr {
 .sports {
     height: 350px;
 }
+/* CSS for submit form part */
 #form {
-    background: url('../images/ski-slope-3187602_1920.jpg') no-repeat center center;
+    background: url('../images/ski_slope.jpg') no-repeat center center;
     height: 540px;
 }
 #signup {
@@ -98,8 +101,6 @@ hr {
     margin: 0px 0 20px 20px;
     top: 20px;
     position: relative;
-
-
 }
 input {
     display: block;
@@ -129,6 +130,7 @@ option {
     background-color: #0c2d35;
     color: #f0edc6;
 }
+/* CSS for contact part */
 #contacts {
     height: 300px;
     background-color: #0a5a59;
@@ -136,6 +138,7 @@ option {
     text-align: center;
     padding-top: 40px;
 }
+/* CSS for footer and media links */
 footer {
     width: 100%;
     height: 80px;
@@ -156,6 +159,7 @@ footer {
 #media i:hover {
     color: #0a5a59;
 }
+/* media queries for different sizes of screens */
 @media screen and (max-width: 1200px)  {
     #times div {
         font-size: 70%;
