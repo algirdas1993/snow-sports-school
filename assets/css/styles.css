@@ -98,13 +98,13 @@ hr {
     color: #f0edc6;
     text-align: left;
     padding-left: 20px;
-    margin: 0px 0 20px 20px;
-    top: 20px;
+    margin: 0px 20px 0px 20px;
+    top: 40px;
     position: relative;
 }
 input {
     display: block;
-    font-size: 70%;
+    font-size: 50%;
     margin-top: -5px;
 }
 
@@ -178,8 +178,8 @@ footer {
     }
     #links {
         float: left;
-        font-size: 150%;
-        padding: 0 0 0 20px;
+        font-size: 180%;
+        padding-left: 20px;
     }
     #links li {
         margin: 0;
@@ -194,6 +194,12 @@ footer {
         top: 0;
         text-align: center;
     }
+    #text-box p {
+        padding: 30px 5px 0 5px;
+    }
+    #text-box h2 {
+        padding-top: 30px;
+    }
     #times {
         height: 600px;
     }
@@ -202,13 +208,19 @@ footer {
         height: 200px;
         padding: 0;
     }
+    #form {
+        height: 500px;
+    }
     #signup {
-        height: 400px;
+        height: 500px;
         width: 95%;
         margin: 0 0 0 0;
+        top: 0px;
+        position: relative;
     }
     #signup h2 {
-        font-size: 80%;
+        font-size: 120%;
+        padding-top: 30px;
     }
     label {
         font-size: 70%;
